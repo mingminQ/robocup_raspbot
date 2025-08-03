@@ -33,7 +33,8 @@
 using namespace std::chrono_literals;
 
 robocup::RsapbotCamera::RsapbotCamera()
-  : Node("raspbot_camera")
+  : Node("raspbot_camera"),
+    video_capture_("/dev/video19", cv::CAP_V4L2)
 {
     declare_parameters();
     initialize_node();
