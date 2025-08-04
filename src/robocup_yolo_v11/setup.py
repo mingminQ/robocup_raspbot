@@ -16,6 +16,8 @@ setup(
     data_files=[
         ('share/ament_index/resource_index/packages', ['resource/robocup_yolo_v11']),
         ('share/robocup_yolo_v11', ['package.xml']),
+        ('share/robocup_yolo_v11/launch', ['launch/yolo_v11_launch.py']),
+        ('share/robocup_yolo_v11/weights', ['weights']),
     ],
     entry_points={
         'console_scripts': [
