@@ -16,7 +16,7 @@ def generate_launch_description():
     )
     image_topic = DeclareLaunchArgument(
         'image_topic',
-        default_value='/compressed_image',
+        default_value='/image',
         description='image topic name'
     )
 

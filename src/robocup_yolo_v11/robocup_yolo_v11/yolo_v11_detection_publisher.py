@@ -17,8 +17,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  * 
- * @file    raspbot_camera.hpp
- * @brief   Raspbot camera image publisher
+ * @file    yolo_v11_detection_publisher.py
+ * @brief   Raspbot yolo v11 detection result publisher
  * @author  Minkyu Kil
  * @date    2025-06-17
  * @version 1.0
@@ -30,23 +30,23 @@ import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, HistoryPolicy, DurabilityPolicy, ReliabilityPolicy
 
-from sensor_msgs.msg import CompressedImage
-from std_msgs.msg import String
+from sensor_msgs.msg import Image
+from robocup_msgs.msg import ObjectDetection2D, ObjectDetection2DArray
 
 import cv2
-from cv_bridge import CvBridge
+import ros2_numpy as rnp
 from ultralytics import YOLO
 
 class YoloV11DetectionPublisher(Node):
 
     def __init__(self):
 
-        super.__init__('yolo_v11_detection_publisher')
+        super().__init__('yolo_v11_detection_publisher')
 
         # Parameters
         self.declare_parameter('display_result', False)
         self.declare_parameter('model_pt', 'yolo11n.pt')
-        self.declare_parameter('image_topic', '/compressed_image')
+        self.declare_parameter('image_topic', '/image')
         self.declare_parameter('detection_topic', '/yolo_v11/detection')
 
         self.display_result = self.get_parameter('display_result').get_parameter_value().bool_value
@@ -55,45 +55,75 @@ class YoloV11DetectionPublisher(Node):
         self.result_topic   = self.get_parameter('detection_topic').get_parameter_value().string_value
 
         # Ultralytics model load
-        self.bridge = CvBridge()
         self.model = YOLO(self.model_pt)
         self.get_logger().info(f'Loaded YOLO model from: {self.model_pt}')
 
         # Publishers
+        result_qos = QoSProfile(
+            history     = HistoryPolicy.KEEP_LAST,
+            depth       = 1,
+            durability  = DurabilityPolicy.VOLATILE,
+            reliability = ReliabilityPolicy.RELIABLE
+        )
 
+        self.result_pub = self.create_publisher(
+            ObjectDetection2DArray,
+            self.result_topic,
+            result_qos
+        )
 
         # Subscribers
         image_qos = QoSProfile(
-            history=HistoryPolicy.KEEP_LAST,
-            depth=1,
-            durability=DurabilityPolicy.VOLATILE,
-            reliability=ReliabilityPolicy.BEST_EFFORT
+            history     = HistoryPolicy.KEEP_LAST,
+            depth       = 10,
+            durability  = DurabilityPolicy.VOLATILE,
+            reliability = ReliabilityPolicy.BEST_EFFORT
         )
 
         self.image_sub = self.create_subscription(
-            CompressedImage, 
+            Image, 
             self.image_topic, 
             self.image_callback, 
             image_qos
         )
 
-    def image_callback(self, msg: CompressedImage):
+    def image_callback(self, msg: Image):
 
-        try:
-            cv_image = self.bridge.compressed_imgmsg_to_cv2(msg, 'bgr8')
-        except Exception as ex:
-            self.get_logger().error(f'cv_bridge error: {ex}')
-            return
-        
-        detection          = self.model(cv_image)
-        json_str           = detection[0].tojson()
-        detection_msg      = String()
-        detection_msg.data = json_str
-        self.pub.publish(detection_msg)
+        # Convert image
+        image = rnp.numpify(msg)
 
+        # YOLO v11 inference
+        detection = self.model(image, verbose=False)[0]
+
+        # To ROS message
+        detected_object_array = ObjectDetection2DArray()
+        detected_object_array.header = msg.header
+
+        for box in detection.boxes.data.tolist():
+            x1, y1, x2, y2, score, label_idx = box
+            center_x = (x1 + x2) / 2.0
+            center_y = (y1 + y2) / 2.0
+            size_x = x2 - x1
+            size_y = y2 - y1
+            label = detection.names[int(label_idx)]
+
+            detected_object = ObjectDetection2D()
+            detected_object.header = msg.header
+            detected_object.label  = label
+            detected_object.score  = float(score)
+            detected_object.bounding_box.center.x = float(center_x)
+            detected_object.bounding_box.center.y = float(center_y)
+            detected_object.bounding_box.size_x   = float(size_x)
+            detected_object.bounding_box.size_y   = float(size_y)
+
+            detected_object_array.detections.append(detected_object)
+
+        # Publish result
+        self.result_pub.publish(detected_object_array)
+
+        # Display result
         if(self.display_result):
-
-            annotated_img = detection[0].plot()
+            annotated_img = detection.plot()
             cv2.imshow('YOLO Result', annotated_img)
             cv2.waitKey(1)
 
@@ -101,9 +131,12 @@ def main(args=None):
 
     rclpy.init(args=args)
     node = YoloV11DetectionPublisher()
+
     try:
         rclpy.spin(node)
     finally:
+        if node.display_result:
+            cv2.destroyAllWindows()
         node.destroy_node()
         rclpy.shutdown()
 

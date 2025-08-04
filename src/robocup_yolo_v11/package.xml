@@ -21,6 +21,9 @@
     <depend>sensor_msgs</depend>
     <depend>cv_bridge</depend>
     <depend>std_msgs</depend>
+    <depend>robocup_msgs</depend>
+    <depend>robocup_srvs</depend>
+    <depend>ros2_numpy</depend>
     <depend>ultralytics</depend>
 
     <!-- Export build system information -->

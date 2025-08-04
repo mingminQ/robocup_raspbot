@@ -25,6 +25,7 @@
  */
 
 #include "robocup_bringup/raspbot_camera.hpp"
+#include "cv_bridge/cv_bridge.h"
 
 #include <functional>
 #include <algorithm>
@@ -54,20 +55,14 @@ void robocup::RsapbotCamera::timer_callback()
         return;
     }
 
-    std::vector<std::uint8_t> buffer;
-    if(!cv::imencode(".png", frame, buffer))
-    {
-        RCLCPP_WARN(this->get_logger(), "RaspbotCamera::timer_callback() failed to encode image to PNG");
-        return;
-    }
+    cv_bridge::CvImage cv_image;
+    cv_image.header.stamp    = this->now();
+    cv_image.header.frame_id = frame_id_;
+    cv_image.encoding        = "bgr8";
+    cv_image.image           = frame;
 
-    sensor_msgs::msg::CompressedImage msg;
-    msg.header.stamp    = this->now();
-    msg.header.frame_id = frame_id_;
-    msg.format = "png";
-    msg.data = std::move(buffer);
-
-    image_pub_->publish(msg);
+    auto msg = cv_image.toImageMsg();
+    image_pub_->publish(*msg);
 }
 
 void robocup::RsapbotCamera::initialize_node()
@@ -76,7 +71,7 @@ void robocup::RsapbotCamera::initialize_node()
     timer_ = this->create_wall_timer(30ms, std::bind(&RsapbotCamera::timer_callback, this));
 
     // Publisher
-    image_pub_ = this->create_publisher<sensor_msgs::msg::CompressedImage>(image_topic_,
+    image_pub_ = this->create_publisher<sensor_msgs::msg::Image>(image_topic_,
         rclcpp::QoS(rclcpp::KeepLast(1)).best_effort().durability_volatile()
     );
 
@@ -92,6 +87,6 @@ void robocup::RsapbotCamera::declare_parameters()
     this->declare_parameter<std::string>("frame_id", "camera");
     frame_id_ = this->get_parameter("frame_id").as_string();
 
-    this->declare_parameter<std::string>("iamge_topic", "/compressed_image");
+    this->declare_parameter<std::string>("iamge_topic", "/image");
     image_topic_ = this->get_parameter("iamge_topic").as_string();
 }

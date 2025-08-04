@@ -27,7 +27,7 @@
 #ifndef ROBOCUP_BRINGUP_RASPBOT_CAMERA_HPP_
 #define ROBOCUP_BRINGUP_RASPBOT_CAMERA_HPP_
 
-#include "sensor_msgs/msg/compressed_image.hpp"
+#include "sensor_msgs/msg/image.hpp"
 #include "rclcpp/rclcpp.hpp"
 
 #include "opencv2/opencv.hpp"
@@ -60,7 +60,7 @@ namespace robocup
         rclcpp::TimerBase::SharedPtr timer_;
 
         // Image topic publisher
-        rclcpp::Publisher<sensor_msgs::msg::CompressedImage>::SharedPtr image_pub_;
+        rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr image_pub_;
 
         // Video capture
         cv::VideoCapture video_capture_;

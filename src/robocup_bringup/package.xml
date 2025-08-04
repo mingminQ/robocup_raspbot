@@ -19,6 +19,7 @@
     <!-- Dependencies -->
     <depend>rclcpp</depend>
     <depend>sensor_msgs</depend>
+    <depend>cv_bridge</depend>
     <depend>OpenCV</depend>
 
     <!-- Export build system information -->
