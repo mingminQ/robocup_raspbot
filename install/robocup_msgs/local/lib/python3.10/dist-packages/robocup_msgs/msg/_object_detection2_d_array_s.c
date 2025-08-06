@@ -1,1 +1,0 @@
-/home/mingq/workspace/robocup_raspbot/build/robocup_msgs/rosidl_generator_py/robocup_msgs/msg/_object_detection2_d_array_s.c

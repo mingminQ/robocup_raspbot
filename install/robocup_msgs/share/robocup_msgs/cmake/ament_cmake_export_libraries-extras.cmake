@@ -1,1 +1,0 @@
-/home/mingq/workspace/robocup_raspbot/build/robocup_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

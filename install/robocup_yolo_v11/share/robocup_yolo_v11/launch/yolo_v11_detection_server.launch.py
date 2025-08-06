@@ -1,1 +1,0 @@
-/home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11/launch/yolo_v11_detection_server.launch.py

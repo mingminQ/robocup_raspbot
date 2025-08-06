@@ -1,1 +1,0 @@
-/home/mingq/workspace/robocup_raspbot/src/robocup_bringup/launch/raspbot_bringup.launch.py

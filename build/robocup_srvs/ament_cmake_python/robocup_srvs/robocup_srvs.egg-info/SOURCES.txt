@@ -1,8 +1,0 @@
-setup.py
-robocup_srvs/__init__.py
-robocup_srvs.egg-info/PKG-INFO
-robocup_srvs.egg-info/SOURCES.txt
-robocup_srvs.egg-info/dependency_links.txt
-robocup_srvs.egg-info/top_level.txt
-robocup_srvs/srv/__init__.py
-robocup_srvs/srv/_object_detection2_d_service.py

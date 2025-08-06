@@ -1,1 +1,0 @@
-/home/mingq/workspace/robocup_raspbot/build/yahboomcar_msgs/ament_cmake_environment_hooks/local_setup.zsh

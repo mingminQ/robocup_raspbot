@@ -1,1 +1,0 @@
-/home/mingq/workspace/robocup_raspbot/build/yahboomcar_msgs/rosidl_generator_cpp/yahboomcar_msgs/msg/detail/servo_control__traits.hpp

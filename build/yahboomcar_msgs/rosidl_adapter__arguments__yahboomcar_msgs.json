@@ -1,7 +1,0 @@
-{
-  "package_name": "yahboomcar_msgs",
-  "non_idl_tuples": [
-    "/home/mingq/workspace/robocup_raspbot/src/yahboomcar_msgs:msg/ServoControl.msg",
-    "/home/mingq/workspace/robocup_raspbot/src/yahboomcar_msgs:msg/PointArray.msg"
-  ]
-}

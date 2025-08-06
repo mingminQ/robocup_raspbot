@@ -1,1 +1,0 @@
-/home/mingq/workspace/robocup_raspbot/build/yahboomcar_msgs/rosidl_generator_c/yahboomcar_msgs/msg/rosidl_generator_c__visibility_control.h

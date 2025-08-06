@@ -1,9 +1,0 @@
-source;share/robocup_yolo_v11/hook/pythonpath.ps1
-source;share/robocup_yolo_v11/hook/pythonpath.dsv
-source;share/robocup_yolo_v11/hook/pythonpath.sh
-source;share/robocup_yolo_v11/hook/ament_prefix_path.ps1
-source;share/robocup_yolo_v11/hook/ament_prefix_path.dsv
-source;share/robocup_yolo_v11/hook/ament_prefix_path.sh
-source;../../build/robocup_yolo_v11/share/robocup_yolo_v11/hook/pythonpath_develop.ps1
-source;../../build/robocup_yolo_v11/share/robocup_yolo_v11/hook/pythonpath_develop.dsv
-source;../../build/robocup_yolo_v11/share/robocup_yolo_v11/hook/pythonpath_develop.sh

@@ -1,1 +1,0 @@
-/home/mingq/workspace/robocup_raspbot/src/yahboomcar_msgs/msg/PointArray.msg

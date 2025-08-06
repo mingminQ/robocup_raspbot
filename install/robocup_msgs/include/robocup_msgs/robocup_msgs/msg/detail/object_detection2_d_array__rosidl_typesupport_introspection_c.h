@@ -1,1 +1,0 @@
-/home/mingq/workspace/robocup_raspbot/build/robocup_msgs/rosidl_typesupport_introspection_c/robocup_msgs/msg/detail/object_detection2_d_array__rosidl_typesupport_introspection_c.h

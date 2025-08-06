@@ -1,1 +1,0 @@
-/home/mingq/workspace/robocup_raspbot/build/robocup_srvs/rosidl_typesupport_fastrtps_c/robocup_srvs/srv/detail/object_detection2_d_service__rosidl_typesupport_fastrtps_c.h

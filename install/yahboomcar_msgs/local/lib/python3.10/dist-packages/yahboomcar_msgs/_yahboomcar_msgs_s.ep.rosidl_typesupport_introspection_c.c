@@ -1,1 +1,0 @@
-/home/mingq/workspace/robocup_raspbot/build/yahboomcar_msgs/rosidl_generator_py/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_introspection_c.c

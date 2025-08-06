@@ -1,1 +1,0 @@
-/home/mingq/workspace/robocup_raspbot/build/robocup_srvs/rosidl_generator_cpp/robocup_srvs/srv/detail/object_detection2_d_service__builder.hpp

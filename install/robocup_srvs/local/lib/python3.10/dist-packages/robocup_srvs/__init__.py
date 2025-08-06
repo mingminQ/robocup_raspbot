@@ -1,1 +1,0 @@
-/home/mingq/workspace/robocup_raspbot/build/robocup_srvs/rosidl_generator_py/robocup_srvs/__init__.py

@@ -1,1 +1,0 @@
-/home/mingq/workspace/robocup_raspbot/build/robocup_srvs/rosidl_typesupport_fastrtps_c/robocup_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

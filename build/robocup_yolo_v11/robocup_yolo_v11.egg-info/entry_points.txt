@@ -1,4 +1,0 @@
-[console_scripts]
-yolo_v11_detection_publisher = robocup_yolo_v11.yolo_v11_detection_publisher:main
-yolo_v11_detection_server = robocup_yolo_v11.yolo_v11_detection_server:main
-

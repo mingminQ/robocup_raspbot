@@ -1,2 +1,0 @@
-# ObjectDetection2DService.srv
-

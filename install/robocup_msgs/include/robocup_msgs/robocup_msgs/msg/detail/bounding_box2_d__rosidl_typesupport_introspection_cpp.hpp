@@ -1,1 +1,0 @@
-/home/mingq/workspace/robocup_raspbot/build/robocup_msgs/rosidl_typesupport_introspection_cpp/robocup_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_cpp.hpp

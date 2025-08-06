@@ -1,1 +1,0 @@
-/home/mingq/workspace/robocup_raspbot/build/yahboomcar_msgs/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp

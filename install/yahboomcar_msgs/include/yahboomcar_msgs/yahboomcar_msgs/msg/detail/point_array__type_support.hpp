@@ -1,1 +1,0 @@
-/home/mingq/workspace/robocup_raspbot/build/yahboomcar_msgs/rosidl_generator_cpp/yahboomcar_msgs/msg/detail/point_array__type_support.hpp

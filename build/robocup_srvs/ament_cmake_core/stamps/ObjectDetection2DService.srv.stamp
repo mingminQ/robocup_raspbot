@@ -1,4 +1,0 @@
-# ObjectDetection2DService.srv
-
----
-robocup_msgs/ObjectDetection2DArray[] detections
