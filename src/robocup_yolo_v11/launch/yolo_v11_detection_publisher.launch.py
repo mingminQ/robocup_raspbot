@@ -1,4 +1,4 @@
-# launch/yolo_v11_launch.py
+# launch/yolo_v11_detection_publisher.launch.py
 
 import os
 from launch import LaunchDescription
@@ -15,7 +15,7 @@ def generate_launch_description():
     display_result = DeclareLaunchArgument(
         'display_result',
         default_value='false',
-        description='Flag to isplay yolo v11 detecion' 
+        description='Flag to display yolo v11 detecion' 
     )
     model_pt = DeclareLaunchArgument(
         'model_pt',

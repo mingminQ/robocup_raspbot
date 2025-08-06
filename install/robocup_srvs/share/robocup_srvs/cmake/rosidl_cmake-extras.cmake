@@ -1,0 +1,1 @@
+/home/mingq/workspace/robocup_raspbot/build/robocup_srvs/rosidl_cmake/rosidl_cmake-extras.cmake

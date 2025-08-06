@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/robocup_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robocup_msgs/msg/detail/bounding_box2_d__type_support.c.o"
+  "CMakeFiles/robocup_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robocup_msgs/msg/detail/bounding_box2_d__type_support.c.o.d"
+  "CMakeFiles/robocup_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robocup_msgs/msg/detail/object_detection2_d__type_support.c.o"
+  "CMakeFiles/robocup_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robocup_msgs/msg/detail/object_detection2_d__type_support.c.o.d"
+  "CMakeFiles/robocup_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robocup_msgs/msg/detail/object_detection2_d_array__type_support.c.o"
+  "CMakeFiles/robocup_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robocup_msgs/msg/detail/object_detection2_d_array__type_support.c.o.d"
+  "librobocup_msgs__rosidl_typesupport_introspection_c.pdb"
+  "librobocup_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/robocup_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/robocup_msgs/msg/detail/bounding_box2_d__type_support.c"
+  "rosidl_typesupport_introspection_c/robocup_msgs/msg/detail/object_detection2_d__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/robocup_msgs/msg/detail/object_detection2_d__type_support.c"
+  "rosidl_typesupport_introspection_c/robocup_msgs/msg/detail/object_detection2_d_array__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/robocup_msgs/msg/detail/object_detection2_d_array__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/robocup_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

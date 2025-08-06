@@ -1,0 +1,6 @@
+{
+  "package_name": "robocup_srvs",
+  "non_idl_tuples": [
+    "/home/mingq/workspace/robocup_raspbot/src/robocup_interfaces/robocup_srvs:srv/ObjectDetection2DService.srv"
+  ]
+}

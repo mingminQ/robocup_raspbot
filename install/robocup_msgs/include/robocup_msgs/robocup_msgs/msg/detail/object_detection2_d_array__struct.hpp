@@ -1,0 +1,1 @@
+/home/mingq/workspace/robocup_raspbot/build/robocup_msgs/rosidl_generator_cpp/robocup_msgs/msg/detail/object_detection2_d_array__struct.hpp

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-94985e6b1ec1ae5f704a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "robocup_srvs__py",
+					"jsonFile" : "directory-robocup_srvs__py-26095b3bbbbea077b849.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/mingq/workspace/robocup_raspbot/build/robocup_srvs/robocup_srvs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "robocup_srvs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robocup_srvs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robocup_srvs_egg-7633238e9905806b8b15.json",
+					"name" : "ament_cmake_python_build_robocup_srvs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_robocup_srvs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_robocup_srvs-a1aff179f07b032ecbac.json",
+					"name" : "ament_cmake_python_symlink_robocup_srvs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocup_srvs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocup_srvs-639beb2b0dd2524ee720.json",
+					"name" : "robocup_srvs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocup_srvs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocup_srvs__cpp-756e58f92b8c9b1e9c59.json",
+					"name" : "robocup_srvs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robocup_srvs__py::@9e2568ab69ec72481d73",
+					"jsonFile" : "target-robocup_srvs__py-d4398418554d90f87b4a.json",
+					"name" : "robocup_srvs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocup_srvs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocup_srvs__rosidl_generator_c-1b498a8d0f775960eaa5.json",
+					"name" : "robocup_srvs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocup_srvs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocup_srvs__rosidl_generator_py-a39f574041eb6fa466d3.json",
+					"name" : "robocup_srvs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocup_srvs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocup_srvs__rosidl_typesupport_c-49153890a020c5ab71f5.json",
+					"name" : "robocup_srvs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocup_srvs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocup_srvs__rosidl_typesupport_c__pyext-145e0c7a5abde54a3f80.json",
+					"name" : "robocup_srvs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocup_srvs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocup_srvs__rosidl_typesupport_cpp-0e48abee8a1fc50057ec.json",
+					"name" : "robocup_srvs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocup_srvs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocup_srvs__rosidl_typesupport_fastrtps_c-3b74c793b7b7137a5d4a.json",
+					"name" : "robocup_srvs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocup_srvs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocup_srvs__rosidl_typesupport_fastrtps_c__pyext-258cc8eaea1608f68e80.json",
+					"name" : "robocup_srvs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocup_srvs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocup_srvs__rosidl_typesupport_fastrtps_cpp-9437cdbd6323d9065415.json",
+					"name" : "robocup_srvs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocup_srvs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocup_srvs__rosidl_typesupport_introspection_c-f79da6532f8a93bdd3b8.json",
+					"name" : "robocup_srvs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocup_srvs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocup_srvs__rosidl_typesupport_introspection_c__pyext-cdfa562ae31c5f355f64.json",
+					"name" : "robocup_srvs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocup_srvs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocup_srvs__rosidl_typesupport_introspection_cpp-7a5478609432bafe3870.json",
+					"name" : "robocup_srvs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocup_srvs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocup_srvs_uninstall-002d11d3be3e154bfc2b.json",
+					"name" : "robocup_srvs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b8e546193ecc33f2896c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mingq/workspace/robocup_raspbot/build/robocup_srvs",
+		"source" : "/home/mingq/workspace/robocup_raspbot/src/robocup_interfaces/robocup_srvs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

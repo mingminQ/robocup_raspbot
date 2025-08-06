@@ -1,0 +1,1 @@
+/home/mingq/workspace/robocup_raspbot/build/robocup_srvs/rosidl_generator_py/robocup_srvs/_robocup_srvs_s.ep.rosidl_typesupport_introspection_c.c

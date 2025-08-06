@@ -1,0 +1,1 @@
+/home/mingq/workspace/robocup_raspbot/build/yahboomcar_msgs/ament_cmake_core/yahboomcar_msgsConfig-version.cmake

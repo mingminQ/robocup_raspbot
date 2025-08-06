@@ -45,10 +45,12 @@ class YoloV11DetectionServer(Node):
         super().__init__('yolo_v11_detection_server')
 
         # Parameters
+        self.declare_parameter('display_result', False)
         self.declare_parameter('model_pt', 'yolo11n.pt')
         self.declare_parameter('image_topic', '/image')
         self.declare_parameter('detection_service', '/yolo_v11/detection_service')
 
+        self.display_result    = self.get_parameter('display_result').get_parameter_value().bool_value
         self.model_pt          = self.get_parameter('model_pt').get_parameter_value().string_value
         self.image_topic       = self.get_parameter('image_topic').get_parameter_value().string_value
         self.detection_service = self.get_parameter('detection_service').get_parameter_value().string_value
@@ -80,6 +82,12 @@ class YoloV11DetectionServer(Node):
             self.image_callback,
             self.image_qos
         )
+
+        # Display result
+        if self.display_result:
+            cv2.namedWindow('YOLO Result', cv2.WINDOW_AUTOSIZE)
+            cv2.startWindowThread()
+            self.create_timer(1.0/30.0, lambda: cv2.waitKey(1))
 
     def image_callback(self, msg: Image):
         self.latest_frame = msg
@@ -119,6 +127,12 @@ class YoloV11DetectionServer(Node):
             detected_object.bounding_box.size_y   = float(size_y)
 
             detected_object_array.detections.append(detected_object)
+
+        # Display result
+        if(self.display_result):
+            annotated_img = detection.plot()
+            cv2.imshow('YOLO Result', annotated_img)
+            cv2.waitKey(1)
 
         # Detection response
         response.detections = [detected_object_array]

@@ -1,0 +1,1 @@
+/home/mingq/workspace/robocup_raspbot/build/robocup_bringup/ament_cmake_core/robocup_bringupConfig-version.cmake

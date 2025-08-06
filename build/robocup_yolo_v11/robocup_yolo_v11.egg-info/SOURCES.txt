@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+launch/yolo_v11_detection_publisher.launch.py
+launch/yolo_v11_detection_server.launch.py
+resource/robocup_yolo_v11
+robocup_yolo_v11/__init__.py
+robocup_yolo_v11/yolo_v11_detection_publisher.py
+robocup_yolo_v11/yolo_v11_detection_server.py
+robocup_yolo_v11.egg-info/PKG-INFO
+robocup_yolo_v11.egg-info/SOURCES.txt
+robocup_yolo_v11.egg-info/dependency_links.txt
+robocup_yolo_v11.egg-info/entry_points.txt
+robocup_yolo_v11.egg-info/requires.txt
+robocup_yolo_v11.egg-info/top_level.txt
+weights/yolo11n.pt

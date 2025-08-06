@@ -1,0 +1,224 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mingq/workspace/robocup_raspbot/build/yahboomcar_msgs
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  5%] Built target ament_cmake_python_symlink_yahboomcar_msgs
+running egg_info
+creating yahboomcar_msgs.egg-info
+writing yahboomcar_msgs.egg-info/PKG-INFO
+writing dependency_links to yahboomcar_msgs.egg-info/dependency_links.txt
+writing top-level names to yahboomcar_msgs.egg-info/top_level.txt
+writing manifest file 'yahboomcar_msgs.egg-info/SOURCES.txt'
+reading manifest file 'yahboomcar_msgs.egg-info/SOURCES.txt'
+writing manifest file 'yahboomcar_msgs.egg-info/SOURCES.txt'
+[  5%] Built target yahboomcar_msgs__cpp
+[  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 15%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/servo_control__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/point_array__functions.c.o[0m
+[ 17%] Built target ament_cmake_python_build_yahboomcar_msgs_egg
+[ 20%] [32m[1mLinking C shared library libyahboomcar_msgs__rosidl_generator_c.so[0m
+[ 20%] Built target yahboomcar_msgs__rosidl_generator_c
+[ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/servo_control__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/servo_control__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/point_array__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/point_array__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/point_array__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/servo_control__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/servo_control__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/point_array__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/point_array__type_support_c.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/servo_control__type_support_c.cpp.o[0m
+[ 56%] [32m[1mLinking CXX shared library libyahboomcar_msgs__rosidl_typesupport_c.so[0m
+[ 58%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/servo_control__type_support.c.o[0m
+[ 61%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/point_array__type_support.c.o[0m
+[ 64%] [32m[1mLinking C shared library libyahboomcar_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 64%] Built target yahboomcar_msgs__rosidl_typesupport_c
+[ 66%] [32m[1mLinking CXX shared library libyahboomcar_msgs__rosidl_typesupport_cpp.so[0m
+[ 66%] Built target yahboomcar_msgs__rosidl_typesupport_introspection_c
+[ 66%] Built target yahboomcar_msgs__rosidl_typesupport_cpp
+[ 69%] [32m[1mLinking CXX shared library libyahboomcar_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 71%] [32m[1mLinking CXX shared library libyahboomcar_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 74%] [32m[1mLinking CXX shared library libyahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 74%] Built target yahboomcar_msgs__rosidl_typesupport_introspection_cpp
+[ 74%] Built target yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp
+[ 74%] Built target yahboomcar_msgs__rosidl_typesupport_fastrtps_c
+[ 74%] Built target yahboomcar_msgs
+[ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 76%] Built target yahboomcar_msgs__py
+[ 82%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/yahboomcar_msgs/msg/_point_array_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/yahboomcar_msgs/msg/_servo_control_s.c.o[0m
+[ 84%] [32m[1mLinking C shared library rosidl_generator_py/yahboomcar_msgs/libyahboomcar_msgs__rosidl_generator_py.so[0m
+[ 84%] Built target yahboomcar_msgs__rosidl_generator_py
+[ 87%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target yahboomcar_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target yahboomcar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target yahboomcar_msgs__rosidl_typesupport_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/ament_index/resource_index/rosidl_interfaces/yahboomcar_msgs
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__functions.h
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__struct.h
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__type_support.h
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/servo_control__functions.h
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/servo_control__struct.h
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/servo_control__type_support.h
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/point_array.h
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/servo_control.h
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/library_path.sh
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/library_path.dsv
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/servo_control__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/servo_control__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__builder.hpp
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__struct.hpp
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__traits.hpp
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__type_support.hpp
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/servo_control__builder.hpp
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/servo_control__struct.hpp
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/servo_control__traits.hpp
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/servo_control__type_support.hpp
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/point_array.hpp
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/servo_control.hpp
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/servo_control__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/servo_control__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/pythonpath.sh
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/pythonpath.dsv
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs-0.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/__init__.py
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/libyahboomcar_msgs__rosidl_generator_py.so
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/__init__.py
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_point_array.py
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_point_array_s.c
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_servo_control.py
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_servo_control_s.c
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/ServoControl.idl
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/PointArray.idl
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/ServoControl.msg
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/PointArray.msg
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/ament_index/resource_index/package_run_dependencies/yahboomcar_msgs
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/ament_index/resource_index/parent_prefix_path/yahboomcar_msgs
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/ament_prefix_path.sh
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/ament_prefix_path.dsv
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/path.sh
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/path.dsv
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/local_setup.bash
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/local_setup.sh
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/local_setup.zsh
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/local_setup.dsv
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/package.dsv
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/ament_index/resource_index/packages/yahboomcar_msgs
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgsConfig.cmake
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgsConfig-version.cmake
+-- Symlinking: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/package.xml
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_generator_c.so
+-- Set runtime path of "/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_generator_c.so" to ""
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_c.so" to ""
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_cpp.so" to ""
+Listing '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs'...
+Compiling '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/__init__.py'...
+Listing '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg'...
+Compiling '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/__init__.py'...
+Compiling '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_point_array.py'...
+Compiling '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_servo_control.py'...
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_generator_py.so
+-- Set runtime path of "/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_generator_py.so" to ""
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_generator_pyExport-noconfig.cmake

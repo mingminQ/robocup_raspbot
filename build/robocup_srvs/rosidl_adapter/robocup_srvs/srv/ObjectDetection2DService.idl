@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robocup_srvs/srv/ObjectDetection2DService.srv
+// generated code does not contain a copyright notice
+
+#include "robocup_msgs/msg/ObjectDetection2DArray.idl"
+
+module robocup_srvs {
+  module srv {
+    @verbatim (language="comment", text=
+      "ObjectDetection2DService.srv")
+    struct ObjectDetection2DService_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct ObjectDetection2DService_Response {
+      sequence<robocup_msgs::msg::ObjectDetection2DArray> detections;
+    };
+  };
+};

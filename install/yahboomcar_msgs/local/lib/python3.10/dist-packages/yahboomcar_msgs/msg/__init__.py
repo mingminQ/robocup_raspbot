@@ -1,0 +1,1 @@
+/home/mingq/workspace/robocup_raspbot/build/yahboomcar_msgs/rosidl_generator_py/yahboomcar_msgs/msg/__init__.py

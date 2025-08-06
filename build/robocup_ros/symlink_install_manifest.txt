@@ -1,0 +1,16 @@
+/home/mingq/workspace/robocup_raspbot/install/robocup_ros/lib/robocup_ros/camera_line_tracker
+/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/ament_index/resource_index/package_run_dependencies/robocup_ros
+/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/ament_index/resource_index/parent_prefix_path/robocup_ros
+/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/environment/ament_prefix_path.sh
+/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/environment/ament_prefix_path.dsv
+/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/environment/path.sh
+/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/environment/path.dsv
+/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/local_setup.bash
+/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/local_setup.sh
+/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/local_setup.zsh
+/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/local_setup.dsv
+/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/package.dsv
+/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/ament_index/resource_index/packages/robocup_ros
+/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/cmake/robocup_rosConfig.cmake
+/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/cmake/robocup_rosConfig-version.cmake
+/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/package.xml

@@ -1,0 +1,10 @@
+/home/mingq/workspace/robocup_raspbot/build/robocup_ros/CMakeFiles/uninstall.dir
+/home/mingq/workspace/robocup_raspbot/build/robocup_ros/CMakeFiles/robocup_ros_uninstall.dir
+/home/mingq/workspace/robocup_raspbot/build/robocup_ros/CMakeFiles/camera_line_tracker.dir
+/home/mingq/workspace/robocup_raspbot/build/robocup_ros/CMakeFiles/test.dir
+/home/mingq/workspace/robocup_raspbot/build/robocup_ros/CMakeFiles/edit_cache.dir
+/home/mingq/workspace/robocup_raspbot/build/robocup_ros/CMakeFiles/rebuild_cache.dir
+/home/mingq/workspace/robocup_raspbot/build/robocup_ros/CMakeFiles/list_install_components.dir
+/home/mingq/workspace/robocup_raspbot/build/robocup_ros/CMakeFiles/install.dir
+/home/mingq/workspace/robocup_raspbot/build/robocup_ros/CMakeFiles/install/local.dir
+/home/mingq/workspace/robocup_raspbot/build/robocup_ros/CMakeFiles/install/strip.dir

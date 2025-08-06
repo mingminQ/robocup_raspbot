@@ -1,0 +1,133 @@
+[0.037s] Invoking command in '/home/mingq/workspace/robocup_raspbot/build/robocup_srvs': AMENT_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mingq/workspace/robocup_raspbot/build/robocup_srvs -- -j16 -l16
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target robocup_srvs__rosidl_generator_c[0m
+[0.084s] [  3%] Built target robocup_srvs__cpp
+[0.087s] [ 12%] Built target robocup_srvs__rosidl_generator_c
+[0.093s] [ 12%] Built target ament_cmake_python_symlink_robocup_srvs
+[0.097s] [35m[1mConsolidate compiler generated dependencies of target robocup_srvs__rosidl_typesupport_introspection_cpp[0m
+[0.097s] [35m[1mConsolidate compiler generated dependencies of target robocup_srvs__rosidl_typesupport_cpp[0m
+[0.097s] [35m[1mConsolidate compiler generated dependencies of target robocup_srvs__rosidl_typesupport_fastrtps_cpp[0m
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target robocup_srvs__rosidl_typesupport_c[0m
+[0.103s] [35m[1mConsolidate compiler generated dependencies of target robocup_srvs__rosidl_typesupport_introspection_c[0m
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target robocup_srvs__rosidl_typesupport_fastrtps_c[0m
+[0.112s] [ 22%] Built target robocup_srvs__rosidl_typesupport_introspection_cpp
+[0.112s] [ 32%] Built target robocup_srvs__rosidl_typesupport_cpp
+[0.112s] [ 41%] Built target robocup_srvs__rosidl_typesupport_c
+[0.116s] [ 51%] Built target robocup_srvs__rosidl_typesupport_fastrtps_cpp
+[0.118s] [ 61%] Built target robocup_srvs__rosidl_typesupport_introspection_c
+[0.121s] [ 70%] Built target robocup_srvs__rosidl_typesupport_fastrtps_c
+[0.148s] [ 70%] Built target robocup_srvs
+[0.172s] [ 74%] Built target robocup_srvs__py
+[0.186s] [35m[1mConsolidate compiler generated dependencies of target robocup_srvs__rosidl_generator_py[0m
+[0.198s] [ 80%] Built target robocup_srvs__rosidl_generator_py
+[0.210s] [35m[1mConsolidate compiler generated dependencies of target robocup_srvs__rosidl_typesupport_introspection_c__pyext[0m
+[0.211s] [35m[1mConsolidate compiler generated dependencies of target robocup_srvs__rosidl_typesupport_c__pyext[0m
+[0.211s] [35m[1mConsolidate compiler generated dependencies of target robocup_srvs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.224s] [ 87%] Built target robocup_srvs__rosidl_typesupport_introspection_c__pyext
+[0.224s] [ 93%] Built target robocup_srvs__rosidl_typesupport_fastrtps_c__pyext
+[0.226s] [100%] Built target robocup_srvs__rosidl_typesupport_c__pyext
+[0.351s] running egg_info
+[0.352s] writing robocup_srvs.egg-info/PKG-INFO
+[0.353s] writing dependency_links to robocup_srvs.egg-info/dependency_links.txt
+[0.353s] writing top-level names to robocup_srvs.egg-info/top_level.txt
+[0.357s] reading manifest file 'robocup_srvs.egg-info/SOURCES.txt'
+[0.358s] writing manifest file 'robocup_srvs.egg-info/SOURCES.txt'
+[0.396s] [100%] Built target ament_cmake_python_build_robocup_srvs_egg
+[0.412s] Invoked command in '/home/mingq/workspace/robocup_raspbot/build/robocup_srvs' returned '0': AMENT_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mingq/workspace/robocup_raspbot/build/robocup_srvs -- -j16 -l16
+[0.418s] Invoking command in '/home/mingq/workspace/robocup_raspbot/build/robocup_srvs': AMENT_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mingq/workspace/robocup_raspbot/build/robocup_srvs
+[0.426s] -- Install configuration: ""
+[0.427s] -- Execute custom install script
+[0.427s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/ament_index/resource_index/rosidl_interfaces/robocup_srvs
+[0.427s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/include/robocup_srvs/robocup_srvs/msg/rosidl_generator_c__visibility_control.h
+[0.427s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/include/robocup_srvs/robocup_srvs/srv/detail/object_detection2_d_service__functions.h
+[0.427s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/include/robocup_srvs/robocup_srvs/srv/detail/object_detection2_d_service__struct.h
+[0.428s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/include/robocup_srvs/robocup_srvs/srv/detail/object_detection2_d_service__type_support.h
+[0.428s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/include/robocup_srvs/robocup_srvs/srv/object_detection2_d_service.h
+[0.428s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/environment/library_path.sh
+[0.428s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/environment/library_path.dsv
+[0.428s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/include/robocup_srvs/robocup_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.428s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/include/robocup_srvs/robocup_srvs/srv/detail/object_detection2_d_service__rosidl_typesupport_fastrtps_c.h
+[0.429s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/include/robocup_srvs/robocup_srvs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.429s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/include/robocup_srvs/robocup_srvs/srv/detail/object_detection2_d_service__builder.hpp
+[0.429s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/include/robocup_srvs/robocup_srvs/srv/detail/object_detection2_d_service__struct.hpp
+[0.429s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/include/robocup_srvs/robocup_srvs/srv/detail/object_detection2_d_service__traits.hpp
+[0.429s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/include/robocup_srvs/robocup_srvs/srv/detail/object_detection2_d_service__type_support.hpp
+[0.430s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/include/robocup_srvs/robocup_srvs/srv/object_detection2_d_service.hpp
+[0.430s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/include/robocup_srvs/robocup_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.430s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/include/robocup_srvs/robocup_srvs/srv/detail/object_detection2_d_service__rosidl_typesupport_fastrtps_cpp.hpp
+[0.430s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/include/robocup_srvs/robocup_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.430s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/include/robocup_srvs/robocup_srvs/srv/detail/object_detection2_d_service__rosidl_typesupport_introspection_c.h
+[0.430s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/include/robocup_srvs/robocup_srvs/srv/detail/object_detection2_d_service__rosidl_typesupport_introspection_cpp.hpp
+[0.431s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/environment/pythonpath.sh
+[0.431s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/environment/pythonpath.dsv
+[0.431s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages/robocup_srvs-0.0.0-py3.10.egg-info/PKG-INFO
+[0.431s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages/robocup_srvs-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.431s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages/robocup_srvs-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.432s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages/robocup_srvs-0.0.0-py3.10.egg-info/top_level.txt
+[0.432s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages/robocup_srvs/__init__.py
+[0.432s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages/robocup_srvs/_robocup_srvs_s.ep.rosidl_typesupport_c.c
+[0.432s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages/robocup_srvs/_robocup_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.432s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages/robocup_srvs/_robocup_srvs_s.ep.rosidl_typesupport_introspection_c.c
+[0.432s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages/robocup_srvs/librobocup_srvs__rosidl_generator_py.so
+[0.432s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages/robocup_srvs/robocup_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.432s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages/robocup_srvs/robocup_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.432s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages/robocup_srvs/robocup_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.432s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages/robocup_srvs/srv/__init__.py
+[0.432s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages/robocup_srvs/srv/_object_detection2_d_service.py
+[0.432s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages/robocup_srvs/srv/_object_detection2_d_service_s.c
+[0.432s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages/robocup_srvs/robocup_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.433s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages/robocup_srvs/robocup_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.433s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages/robocup_srvs/robocup_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.433s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/srv/ObjectDetection2DService.idl
+[0.434s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/srv/ObjectDetection2DService.srv
+[0.434s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/srv/ObjectDetection2DService_Request.msg
+[0.434s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/srv/ObjectDetection2DService_Response.msg
+[0.434s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/ament_index/resource_index/package_run_dependencies/robocup_srvs
+[0.435s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/ament_index/resource_index/parent_prefix_path/robocup_srvs
+[0.435s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/environment/ament_prefix_path.sh
+[0.435s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/environment/ament_prefix_path.dsv
+[0.435s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/environment/path.sh
+[0.435s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/environment/path.dsv
+[0.436s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/local_setup.bash
+[0.436s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/local_setup.sh
+[0.436s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/local_setup.zsh
+[0.436s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/local_setup.dsv
+[0.436s] -- Symlinking: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/package.dsv
+[0.445s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/ament_index/resource_index/packages/robocup_srvs
+[0.445s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/rosidl_cmake-extras.cmake
+[0.446s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.446s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.446s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.446s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[0.447s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.447s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.447s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/robocup_srvsConfig.cmake
+[0.447s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/robocup_srvsConfig-version.cmake
+[0.447s] -- Up-to-date symlink: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/package.xml
+[0.447s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/lib/librobocup_srvs__rosidl_generator_c.so
+[0.449s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/lib/librobocup_srvs__rosidl_typesupport_fastrtps_c.so
+[0.450s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/lib/librobocup_srvs__rosidl_typesupport_fastrtps_cpp.so
+[0.450s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/lib/librobocup_srvs__rosidl_typesupport_introspection_c.so
+[0.451s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/lib/librobocup_srvs__rosidl_typesupport_c.so
+[0.452s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/lib/librobocup_srvs__rosidl_typesupport_introspection_cpp.so
+[0.453s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/lib/librobocup_srvs__rosidl_typesupport_cpp.so
+[0.481s] Listing '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages/robocup_srvs'...
+[0.481s] Listing '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages/robocup_srvs/srv'...
+[0.487s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/lib/librobocup_srvs__rosidl_generator_py.so
+[0.488s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/export_robocup_srvs__rosidl_generator_cExport.cmake
+[0.488s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/export_robocup_srvs__rosidl_generator_cExport-noconfig.cmake
+[0.490s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/export_robocup_srvs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.490s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/export_robocup_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.490s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/export_robocup_srvs__rosidl_generator_cppExport.cmake
+[0.491s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/export_robocup_srvs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.491s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/export_robocup_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.492s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/robocup_srvs__rosidl_typesupport_introspection_cExport.cmake
+[0.492s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/robocup_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.493s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/robocup_srvs__rosidl_typesupport_cExport.cmake
+[0.493s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/robocup_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[0.494s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/robocup_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[0.494s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/robocup_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.494s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/robocup_srvs__rosidl_typesupport_cppExport.cmake
+[0.494s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/robocup_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.495s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/export_robocup_srvs__rosidl_generator_pyExport.cmake
+[0.495s] -- Up-to-date: /home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/cmake/export_robocup_srvs__rosidl_generator_pyExport-noconfig.cmake
+[0.499s] Invoked command in '/home/mingq/workspace/robocup_raspbot/build/robocup_srvs' returned '0': AMENT_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mingq/workspace/robocup_raspbot/build/robocup_srvs

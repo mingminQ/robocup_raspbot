@@ -1,0 +1,10 @@
+setup.py
+robocup_msgs/__init__.py
+robocup_msgs.egg-info/PKG-INFO
+robocup_msgs.egg-info/SOURCES.txt
+robocup_msgs.egg-info/dependency_links.txt
+robocup_msgs.egg-info/top_level.txt
+robocup_msgs/msg/__init__.py
+robocup_msgs/msg/_bounding_box2_d.py
+robocup_msgs/msg/_object_detection2_d.py
+robocup_msgs/msg/_object_detection2_d_array.py

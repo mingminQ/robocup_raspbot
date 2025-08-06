@@ -1,0 +1,492 @@
+[0.231s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.231s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x753163e3f610>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x753163e3f160>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x753163e3f160>>, mixin_verb=('build',))
+[0.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.585s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mingq/workspace/robocup_raspbot'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_bringup) by extension 'ignore'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_bringup) by extension 'ignore_ament_install'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_bringup) by extensions ['colcon_pkg']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_bringup) by extension 'colcon_pkg'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_bringup) by extensions ['colcon_meta']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_bringup) by extension 'colcon_meta'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_bringup) by extensions ['ros']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_bringup) by extension 'ros'
+[0.602s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robocup_bringup' with type 'ros.ament_cmake' and name 'robocup_bringup'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces) by extension 'ignore'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces) by extension 'ignore_ament_install'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces) by extensions ['colcon_pkg']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces) by extension 'colcon_pkg'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces) by extensions ['colcon_meta']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces) by extension 'colcon_meta'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces) by extensions ['ros']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces) by extension 'ros'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces) by extensions ['cmake', 'python']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces) by extension 'cmake'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces) by extension 'python'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces) by extensions ['python_setup_py']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces) by extension 'python_setup_py'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces/robocup_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces/robocup_msgs) by extension 'ignore'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces/robocup_msgs) by extension 'ignore_ament_install'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces/robocup_msgs) by extensions ['colcon_pkg']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces/robocup_msgs) by extension 'colcon_pkg'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces/robocup_msgs) by extensions ['colcon_meta']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces/robocup_msgs) by extension 'colcon_meta'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces/robocup_msgs) by extensions ['ros']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces/robocup_msgs) by extension 'ros'
+[0.605s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robocup_interfaces/robocup_msgs' with type 'ros.ament_cmake' and name 'robocup_msgs'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces/robocup_srvs) by extensions ['ignore', 'ignore_ament_install']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces/robocup_srvs) by extension 'ignore'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces/robocup_srvs) by extension 'ignore_ament_install'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces/robocup_srvs) by extensions ['colcon_pkg']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces/robocup_srvs) by extension 'colcon_pkg'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces/robocup_srvs) by extensions ['colcon_meta']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces/robocup_srvs) by extension 'colcon_meta'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces/robocup_srvs) by extensions ['ros']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_interfaces/robocup_srvs) by extension 'ros'
+[0.606s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robocup_interfaces/robocup_srvs' with type 'ros.ament_cmake' and name 'robocup_srvs'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_ros) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_ros) by extension 'ignore_ament_install'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_ros) by extensions ['colcon_pkg']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_ros) by extension 'colcon_pkg'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_ros) by extensions ['colcon_meta']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_ros) by extension 'colcon_meta'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_ros) by extensions ['ros']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_ros) by extension 'ros'
+[0.607s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robocup_ros' with type 'ros.ament_cmake' and name 'robocup_ros'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_yolo_v11) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_yolo_v11) by extension 'ignore'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_yolo_v11) by extension 'ignore_ament_install'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_yolo_v11) by extensions ['colcon_pkg']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_yolo_v11) by extension 'colcon_pkg'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_yolo_v11) by extensions ['colcon_meta']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_yolo_v11) by extension 'colcon_meta'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_yolo_v11) by extensions ['ros']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocup_yolo_v11) by extension 'ros'
+[0.608s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robocup_yolo_v11' with type 'ros.ament_python' and name 'robocup_yolo_v11'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_msgs) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_msgs) by extension 'ignore_ament_install'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_msgs) by extensions ['colcon_pkg']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_msgs) by extension 'colcon_pkg'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_msgs) by extensions ['colcon_meta']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_msgs) by extension 'colcon_meta'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_msgs) by extensions ['ros']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_msgs) by extension 'ros'
+[0.609s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboomcar_msgs' with type 'ros.ament_cmake' and name 'yahboomcar_msgs'
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.651s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 301 installed packages in /opt/ros/humble
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'robocup_bringup' build argument 'cmake_args' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'robocup_bringup' build argument 'cmake_target' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'robocup_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'robocup_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'robocup_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'robocup_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'robocup_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'robocup_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'robocup_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.739s] DEBUG:colcon.colcon_core.verb:Building package 'robocup_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mingq/workspace/robocup_raspbot/build/robocup_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup', 'merge_install': False, 'path': '/home/mingq/workspace/robocup_raspbot/src/robocup_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'robocup_msgs' build argument 'cmake_args' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'robocup_msgs' build argument 'cmake_target' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'robocup_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'robocup_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'robocup_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'robocup_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'robocup_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'robocup_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'robocup_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.740s] DEBUG:colcon.colcon_core.verb:Building package 'robocup_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mingq/workspace/robocup_raspbot/build/robocup_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs', 'merge_install': False, 'path': '/home/mingq/workspace/robocup_raspbot/src/robocup_interfaces/robocup_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'yahboomcar_msgs' build argument 'cmake_args' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'yahboomcar_msgs' build argument 'cmake_target' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'yahboomcar_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'yahboomcar_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'yahboomcar_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'yahboomcar_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'yahboomcar_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'yahboomcar_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'yahboomcar_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.740s] DEBUG:colcon.colcon_core.verb:Building package 'yahboomcar_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mingq/workspace/robocup_raspbot/build/yahboomcar_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs', 'merge_install': False, 'path': '/home/mingq/workspace/robocup_raspbot/src/yahboomcar_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'robocup_ros' build argument 'cmake_args' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'robocup_ros' build argument 'cmake_target' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'robocup_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'robocup_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'robocup_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'robocup_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'robocup_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'robocup_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'robocup_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.740s] DEBUG:colcon.colcon_core.verb:Building package 'robocup_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mingq/workspace/robocup_raspbot/build/robocup_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mingq/workspace/robocup_raspbot/install/robocup_ros', 'merge_install': False, 'path': '/home/mingq/workspace/robocup_raspbot/src/robocup_ros', 'symlink_install': True, 'test_result_base': None}
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'robocup_srvs' build argument 'cmake_args' from command line to 'None'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'robocup_srvs' build argument 'cmake_target' from command line to 'None'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'robocup_srvs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'robocup_srvs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'robocup_srvs' build argument 'cmake_clean_first' from command line to 'False'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'robocup_srvs' build argument 'cmake_force_configure' from command line to 'False'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'robocup_srvs' build argument 'ament_cmake_args' from command line to 'None'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'robocup_srvs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'robocup_srvs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.741s] DEBUG:colcon.colcon_core.verb:Building package 'robocup_srvs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mingq/workspace/robocup_raspbot/build/robocup_srvs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs', 'merge_install': False, 'path': '/home/mingq/workspace/robocup_raspbot/src/robocup_interfaces/robocup_srvs', 'symlink_install': True, 'test_result_base': None}
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'robocup_yolo_v11' build argument 'cmake_args' from command line to 'None'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'robocup_yolo_v11' build argument 'cmake_target' from command line to 'None'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'robocup_yolo_v11' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'robocup_yolo_v11' build argument 'cmake_clean_cache' from command line to 'False'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'robocup_yolo_v11' build argument 'cmake_clean_first' from command line to 'False'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'robocup_yolo_v11' build argument 'cmake_force_configure' from command line to 'False'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'robocup_yolo_v11' build argument 'ament_cmake_args' from command line to 'None'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'robocup_yolo_v11' build argument 'catkin_cmake_args' from command line to 'None'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'robocup_yolo_v11' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.741s] DEBUG:colcon.colcon_core.verb:Building package 'robocup_yolo_v11' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11', 'merge_install': False, 'path': '/home/mingq/workspace/robocup_raspbot/src/robocup_yolo_v11', 'symlink_install': True, 'test_result_base': None}
+[0.741s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.742s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.742s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mingq/workspace/robocup_raspbot/src/robocup_interfaces/robocup_msgs' with build type 'ament_cmake'
+[0.742s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mingq/workspace/robocup_raspbot/src/robocup_interfaces/robocup_msgs'
+[0.747s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.748s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.748s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.751s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mingq/workspace/robocup_raspbot/src/yahboomcar_msgs' with build type 'ament_cmake'
+[0.751s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mingq/workspace/robocup_raspbot/src/yahboomcar_msgs'
+[0.751s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.751s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.754s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mingq/workspace/robocup_raspbot/src/robocup_bringup' with build type 'ament_cmake'
+[0.754s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mingq/workspace/robocup_raspbot/src/robocup_bringup'
+[0.754s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.754s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingq/workspace/robocup_raspbot/build/robocup_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mingq/workspace/robocup_raspbot/build/robocup_msgs -- -j16 -l16
+[0.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingq/workspace/robocup_raspbot/build/yahboomcar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mingq/workspace/robocup_raspbot/build/yahboomcar_msgs -- -j16 -l16
+[0.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingq/workspace/robocup_raspbot/build/robocup_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mingq/workspace/robocup_raspbot/build/robocup_bringup -- -j16 -l16
+[1.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingq/workspace/robocup_raspbot/build/yahboomcar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mingq/workspace/robocup_raspbot/build/yahboomcar_msgs -- -j16 -l16
+[1.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingq/workspace/robocup_raspbot/build/yahboomcar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mingq/workspace/robocup_raspbot/build/yahboomcar_msgs
+[1.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingq/workspace/robocup_raspbot/build/robocup_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mingq/workspace/robocup_raspbot/build/robocup_msgs -- -j16 -l16
+[1.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingq/workspace/robocup_raspbot/build/robocup_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mingq/workspace/robocup_raspbot/build/robocup_msgs
+[1.332s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yahboomcar_msgs)
+[1.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingq/workspace/robocup_raspbot/build/yahboomcar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mingq/workspace/robocup_raspbot/build/yahboomcar_msgs
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs' for CMake module files
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs' for CMake config files
+[1.342s] Level 1:colcon.colcon_core.shell:create_environment_hook('yahboomcar_msgs', 'cmake_prefix_path')
+[1.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/hook/cmake_prefix_path.ps1'
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/hook/cmake_prefix_path.dsv'
+[1.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/hook/cmake_prefix_path.sh'
+[1.345s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib'
+[1.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('yahboomcar_msgs', 'ld_library_path_lib')
+[1.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/hook/ld_library_path_lib.ps1'
+[1.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/hook/ld_library_path_lib.dsv'
+[1.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/hook/ld_library_path_lib.sh'
+[1.346s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/bin'
+[1.346s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib/pkgconfig/yahboomcar_msgs.pc'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib/python3.10/site-packages'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/bin'
+[1.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/package.ps1'
+[1.348s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/package.dsv'
+[1.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/package.sh'
+[1.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/package.bash'
+[1.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/package.zsh'
+[1.352s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/colcon-core/packages/yahboomcar_msgs)
+[1.353s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yahboomcar_msgs)
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs' for CMake module files
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs' for CMake config files
+[1.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('yahboomcar_msgs', 'cmake_prefix_path')
+[1.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/hook/cmake_prefix_path.ps1'
+[1.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/hook/cmake_prefix_path.dsv'
+[1.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/hook/cmake_prefix_path.sh'
+[1.355s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib'
+[1.355s] Level 1:colcon.colcon_core.shell:create_environment_hook('yahboomcar_msgs', 'ld_library_path_lib')
+[1.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/hook/ld_library_path_lib.ps1'
+[1.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/hook/ld_library_path_lib.dsv'
+[1.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/hook/ld_library_path_lib.sh'
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/bin'
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib/pkgconfig/yahboomcar_msgs.pc'
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib/python3.10/site-packages'
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/bin'
+[1.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/package.ps1'
+[1.357s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/package.dsv'
+[1.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/package.sh'
+[1.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/package.bash'
+[1.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/yahboomcar_msgs/package.zsh'
+[1.358s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/share/colcon-core/packages/yahboomcar_msgs)
+[1.359s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mingq/workspace/robocup_raspbot/src/robocup_ros' with build type 'ament_cmake'
+[1.359s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mingq/workspace/robocup_raspbot/src/robocup_ros'
+[1.359s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.359s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.364s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robocup_msgs)
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs' for CMake module files
+[1.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingq/workspace/robocup_raspbot/build/robocup_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mingq/workspace/robocup_raspbot/build/robocup_msgs
+[1.366s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs' for CMake config files
+[1.367s] Level 1:colcon.colcon_core.shell:create_environment_hook('robocup_msgs', 'cmake_prefix_path')
+[1.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/robocup_msgs/hook/cmake_prefix_path.ps1'
+[1.368s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/robocup_msgs/hook/cmake_prefix_path.dsv'
+[1.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/robocup_msgs/hook/cmake_prefix_path.sh'
+[1.369s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/lib'
+[1.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('robocup_msgs', 'ld_library_path_lib')
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/robocup_msgs/hook/ld_library_path_lib.ps1'
+[1.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/robocup_msgs/hook/ld_library_path_lib.dsv'
+[1.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/robocup_msgs/hook/ld_library_path_lib.sh'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/bin'
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/lib/pkgconfig/robocup_msgs.pc'
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/lib/python3.10/site-packages'
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/bin'
+[1.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/robocup_msgs/package.ps1'
+[1.372s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/robocup_msgs/package.dsv'
+[1.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/robocup_msgs/package.sh'
+[1.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/robocup_msgs/package.bash'
+[1.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/robocup_msgs/package.zsh'
+[1.374s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/colcon-core/packages/robocup_msgs)
+[1.375s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robocup_msgs)
+[1.375s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs' for CMake module files
+[1.375s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs' for CMake config files
+[1.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('robocup_msgs', 'cmake_prefix_path')
+[1.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/robocup_msgs/hook/cmake_prefix_path.ps1'
+[1.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/robocup_msgs/hook/cmake_prefix_path.dsv'
+[1.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/robocup_msgs/hook/cmake_prefix_path.sh'
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/lib'
+[1.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('robocup_msgs', 'ld_library_path_lib')
+[1.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/robocup_msgs/hook/ld_library_path_lib.ps1'
+[1.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/robocup_msgs/hook/ld_library_path_lib.dsv'
+[1.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/robocup_msgs/hook/ld_library_path_lib.sh'
+[1.379s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/bin'
+[1.379s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/lib/pkgconfig/robocup_msgs.pc'
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/lib/python3.10/site-packages'
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/bin'
+[1.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/robocup_msgs/package.ps1'
+[1.381s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/robocup_msgs/package.dsv'
+[1.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/robocup_msgs/package.sh'
+[1.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/robocup_msgs/package.bash'
+[1.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/robocup_msgs/package.zsh'
+[1.384s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/share/colcon-core/packages/robocup_msgs)
+[1.384s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mingq/workspace/robocup_raspbot/src/robocup_interfaces/robocup_srvs' with build type 'ament_cmake'
+[1.385s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mingq/workspace/robocup_raspbot/src/robocup_interfaces/robocup_srvs'
+[1.386s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.386s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingq/workspace/robocup_raspbot/build/robocup_ros': AMENT_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mingq/workspace/robocup_raspbot/src/robocup_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mingq/workspace/robocup_raspbot/install/robocup_ros
+[1.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingq/workspace/robocup_raspbot/build/robocup_srvs': AMENT_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mingq/workspace/robocup_raspbot/build/robocup_srvs -- -j16 -l16
+[1.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingq/workspace/robocup_raspbot/build/robocup_srvs' returned '0': AMENT_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mingq/workspace/robocup_raspbot/build/robocup_srvs -- -j16 -l16
+[1.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingq/workspace/robocup_raspbot/build/robocup_srvs': AMENT_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mingq/workspace/robocup_raspbot/build/robocup_srvs
+[1.884s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robocup_srvs)
+[1.885s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs' for CMake module files
+[1.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingq/workspace/robocup_raspbot/build/robocup_srvs' returned '0': AMENT_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mingq/workspace/robocup_raspbot/build/robocup_srvs
+[1.886s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs' for CMake config files
+[1.887s] Level 1:colcon.colcon_core.shell:create_environment_hook('robocup_srvs', 'cmake_prefix_path')
+[1.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/hook/cmake_prefix_path.ps1'
+[1.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/hook/cmake_prefix_path.dsv'
+[1.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/hook/cmake_prefix_path.sh'
+[1.888s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/lib'
+[1.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('robocup_srvs', 'ld_library_path_lib')
+[1.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/hook/ld_library_path_lib.ps1'
+[1.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/hook/ld_library_path_lib.dsv'
+[1.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/hook/ld_library_path_lib.sh'
+[1.890s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/bin'
+[1.890s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/lib/pkgconfig/robocup_srvs.pc'
+[1.890s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/lib/python3.10/site-packages'
+[1.890s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/bin'
+[1.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/package.ps1'
+[1.891s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/package.dsv'
+[1.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/package.sh'
+[1.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/package.bash'
+[1.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/package.zsh'
+[1.892s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/colcon-core/packages/robocup_srvs)
+[1.892s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robocup_srvs)
+[1.893s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs' for CMake module files
+[1.893s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs' for CMake config files
+[1.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('robocup_srvs', 'cmake_prefix_path')
+[1.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/hook/cmake_prefix_path.ps1'
+[1.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/hook/cmake_prefix_path.dsv'
+[1.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/hook/cmake_prefix_path.sh'
+[1.895s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/lib'
+[1.895s] Level 1:colcon.colcon_core.shell:create_environment_hook('robocup_srvs', 'ld_library_path_lib')
+[1.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/hook/ld_library_path_lib.ps1'
+[1.896s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/hook/ld_library_path_lib.dsv'
+[1.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/hook/ld_library_path_lib.sh'
+[1.896s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/bin'
+[1.896s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/lib/pkgconfig/robocup_srvs.pc'
+[1.896s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/lib/python3.10/site-packages'
+[1.897s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/bin'
+[1.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/package.ps1'
+[1.897s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/package.dsv'
+[1.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/package.sh'
+[1.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/package.bash'
+[1.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/robocup_srvs/package.zsh'
+[1.899s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/share/colcon-core/packages/robocup_srvs)
+[1.899s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mingq/workspace/robocup_raspbot/src/robocup_yolo_v11' with build type 'ament_python'
+[1.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('robocup_yolo_v11', 'ament_prefix_path')
+[1.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11/hook/ament_prefix_path.ps1'
+[1.902s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11/hook/ament_prefix_path.dsv'
+[1.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11/hook/ament_prefix_path.sh'
+[1.903s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.903s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.229s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mingq/workspace/robocup_raspbot/src/robocup_yolo_v11'
+[2.229s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.229s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11': AMENT_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_srvs:/home/mingq/workspace/robocup_raspbot/install/robocup_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_srvs:/home/mingq/workspace/robocup_raspbot/install/robocup_msgs LD_LIBRARY_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/lib:/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/lib/python3.10/site-packages:/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages:/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11/build --no-deps symlink_data
+[3.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('robocup_yolo_v11', 'pythonpath_develop')
+[3.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11/share/robocup_yolo_v11/hook/pythonpath_develop.ps1'
+[3.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11' returned '0': AMENT_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_srvs:/home/mingq/workspace/robocup_raspbot/install/robocup_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_srvs:/home/mingq/workspace/robocup_raspbot/install/robocup_msgs LD_LIBRARY_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/lib:/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/lib/python3.10/site-packages:/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages:/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11/build --no-deps symlink_data
+[3.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11/share/robocup_yolo_v11/hook/pythonpath_develop.dsv'
+[3.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11/share/robocup_yolo_v11/hook/pythonpath_develop.sh'
+[3.084s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11' for CMake module files
+[3.085s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11' for CMake config files
+[3.085s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/lib'
+[3.085s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/bin'
+[3.085s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/lib/pkgconfig/robocup_yolo_v11.pc'
+[3.085s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/lib/python3.10/site-packages'
+[3.086s] Level 1:colcon.colcon_core.shell:create_environment_hook('robocup_yolo_v11', 'pythonpath')
+[3.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11/hook/pythonpath.ps1'
+[3.086s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11/hook/pythonpath.dsv'
+[3.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11/hook/pythonpath.sh'
+[3.087s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/bin'
+[3.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robocup_yolo_v11)
+[3.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11/package.ps1'
+[3.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11/package.dsv'
+[3.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11/package.sh'
+[3.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11/package.bash'
+[3.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11/package.zsh'
+[3.089s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/colcon-core/packages/robocup_yolo_v11)
+[5.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingq/workspace/robocup_raspbot/build/robocup_ros' returned '0': AMENT_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mingq/workspace/robocup_raspbot/src/robocup_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mingq/workspace/robocup_raspbot/install/robocup_ros
+[5.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingq/workspace/robocup_raspbot/build/robocup_ros': AMENT_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mingq/workspace/robocup_raspbot/build/robocup_ros -- -j16 -l16
+[10.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingq/workspace/robocup_raspbot/build/robocup_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mingq/workspace/robocup_raspbot/build/robocup_bringup -- -j16 -l16
+[10.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingq/workspace/robocup_raspbot/build/robocup_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mingq/workspace/robocup_raspbot/build/robocup_bringup
+[10.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robocup_bringup)
+[10.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingq/workspace/robocup_raspbot/build/robocup_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mingq/workspace/robocup_raspbot/build/robocup_bringup
+[10.604s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup' for CMake module files
+[10.605s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup' for CMake config files
+[10.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('robocup_bringup', 'cmake_prefix_path')
+[10.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/share/robocup_bringup/hook/cmake_prefix_path.ps1'
+[10.606s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/share/robocup_bringup/hook/cmake_prefix_path.dsv'
+[10.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/share/robocup_bringup/hook/cmake_prefix_path.sh'
+[10.607s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/lib'
+[10.607s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/bin'
+[10.607s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/lib/pkgconfig/robocup_bringup.pc'
+[10.607s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/lib/python3.10/site-packages'
+[10.607s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/bin'
+[10.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/share/robocup_bringup/package.ps1'
+[10.608s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/share/robocup_bringup/package.dsv'
+[10.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/share/robocup_bringup/package.sh'
+[10.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/share/robocup_bringup/package.bash'
+[10.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/share/robocup_bringup/package.zsh'
+[10.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/share/colcon-core/packages/robocup_bringup)
+[10.609s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robocup_bringup)
+[10.609s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup' for CMake module files
+[10.610s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup' for CMake config files
+[10.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('robocup_bringup', 'cmake_prefix_path')
+[10.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/share/robocup_bringup/hook/cmake_prefix_path.ps1'
+[10.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/share/robocup_bringup/hook/cmake_prefix_path.dsv'
+[10.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/share/robocup_bringup/hook/cmake_prefix_path.sh'
+[10.611s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/lib'
+[10.611s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/bin'
+[10.611s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/lib/pkgconfig/robocup_bringup.pc'
+[10.611s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/lib/python3.10/site-packages'
+[10.611s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/bin'
+[10.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/share/robocup_bringup/package.ps1'
+[10.612s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/share/robocup_bringup/package.dsv'
+[10.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/share/robocup_bringup/package.sh'
+[10.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/share/robocup_bringup/package.bash'
+[10.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/share/robocup_bringup/package.zsh'
+[10.613s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mingq/workspace/robocup_raspbot/install/robocup_bringup/share/colcon-core/packages/robocup_bringup)
+[14.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingq/workspace/robocup_raspbot/build/robocup_ros' returned '0': AMENT_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mingq/workspace/robocup_raspbot/build/robocup_ros -- -j16 -l16
+[14.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingq/workspace/robocup_raspbot/build/robocup_ros': AMENT_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mingq/workspace/robocup_raspbot/build/robocup_ros
+[14.357s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robocup_ros)
+[14.357s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_ros' for CMake module files
+[14.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingq/workspace/robocup_raspbot/build/robocup_ros' returned '0': AMENT_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mingq/workspace/robocup_raspbot/install/yahboomcar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mingq/workspace/robocup_raspbot/build/robocup_ros
+[14.359s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_ros' for CMake config files
+[14.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('robocup_ros', 'cmake_prefix_path')
+[14.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/hook/cmake_prefix_path.ps1'
+[14.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/hook/cmake_prefix_path.dsv'
+[14.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/hook/cmake_prefix_path.sh'
+[14.361s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/lib'
+[14.361s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/bin'
+[14.361s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/lib/pkgconfig/robocup_ros.pc'
+[14.361s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/lib/python3.10/site-packages'
+[14.361s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/bin'
+[14.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/package.ps1'
+[14.362s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/package.dsv'
+[14.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/package.sh'
+[14.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/package.bash'
+[14.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/package.zsh'
+[14.363s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/colcon-core/packages/robocup_ros)
+[14.363s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robocup_ros)
+[14.363s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_ros' for CMake module files
+[14.364s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_ros' for CMake config files
+[14.364s] Level 1:colcon.colcon_core.shell:create_environment_hook('robocup_ros', 'cmake_prefix_path')
+[14.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/hook/cmake_prefix_path.ps1'
+[14.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/hook/cmake_prefix_path.dsv'
+[14.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/hook/cmake_prefix_path.sh'
+[14.365s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/lib'
+[14.365s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/bin'
+[14.365s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/lib/pkgconfig/robocup_ros.pc'
+[14.365s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/lib/python3.10/site-packages'
+[14.365s] Level 1:colcon.colcon_core.environment:checking '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/bin'
+[14.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/package.ps1'
+[14.366s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/package.dsv'
+[14.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/package.sh'
+[14.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/package.bash'
+[14.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/robocup_ros/package.zsh'
+[14.367s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mingq/workspace/robocup_raspbot/install/robocup_ros/share/colcon-core/packages/robocup_ros)
+[14.367s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.368s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.368s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.368s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.394s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[14.394s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.394s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.394s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.395s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[14.395s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.395s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mingq/workspace/robocup_raspbot/install/local_setup.ps1'
+[14.397s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mingq/workspace/robocup_raspbot/install/_local_setup_util_ps1.py'
+[14.398s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mingq/workspace/robocup_raspbot/install/setup.ps1'
+[14.399s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mingq/workspace/robocup_raspbot/install/local_setup.sh'
+[14.401s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mingq/workspace/robocup_raspbot/install/_local_setup_util_sh.py'
+[14.401s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mingq/workspace/robocup_raspbot/install/setup.sh'
+[14.403s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mingq/workspace/robocup_raspbot/install/local_setup.bash'
+[14.404s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mingq/workspace/robocup_raspbot/install/setup.bash'
+[14.406s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mingq/workspace/robocup_raspbot/install/local_setup.zsh'
+[14.407s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mingq/workspace/robocup_raspbot/install/setup.zsh'

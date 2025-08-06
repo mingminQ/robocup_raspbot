@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/robocup_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robocup_msgs/msg/detail/bounding_box2_d__type_support.cpp.o"
+  "CMakeFiles/robocup_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robocup_msgs/msg/detail/bounding_box2_d__type_support.cpp.o.d"
+  "CMakeFiles/robocup_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robocup_msgs/msg/detail/object_detection2_d__type_support.cpp.o"
+  "CMakeFiles/robocup_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robocup_msgs/msg/detail/object_detection2_d__type_support.cpp.o.d"
+  "CMakeFiles/robocup_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robocup_msgs/msg/detail/object_detection2_d_array__type_support.cpp.o"
+  "CMakeFiles/robocup_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robocup_msgs/msg/detail/object_detection2_d_array__type_support.cpp.o.d"
+  "librobocup_msgs__rosidl_typesupport_introspection_cpp.pdb"
+  "librobocup_msgs__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/robocup_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/robocup_msgs/msg/detail/bounding_box2_d__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/robocup_msgs/msg/detail/object_detection2_d__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/robocup_msgs/msg/detail/object_detection2_d__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/robocup_msgs/msg/detail/object_detection2_d_array__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/robocup_msgs/msg/detail/object_detection2_d_array__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/robocup_msgs__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

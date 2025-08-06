@@ -1,0 +1,8 @@
+{
+  "package_name": "robocup_msgs",
+  "non_idl_tuples": [
+    "/home/mingq/workspace/robocup_raspbot/src/robocup_interfaces/robocup_msgs:msg/BoundingBox2D.msg",
+    "/home/mingq/workspace/robocup_raspbot/src/robocup_interfaces/robocup_msgs:msg/ObjectDetection2D.msg",
+    "/home/mingq/workspace/robocup_raspbot/src/robocup_interfaces/robocup_msgs:msg/ObjectDetection2DArray.msg"
+  ]
+}

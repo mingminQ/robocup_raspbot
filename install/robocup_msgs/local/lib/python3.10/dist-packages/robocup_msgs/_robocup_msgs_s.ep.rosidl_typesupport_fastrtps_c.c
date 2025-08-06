@@ -1,0 +1,1 @@
+/home/mingq/workspace/robocup_raspbot/build/robocup_msgs/rosidl_generator_py/robocup_msgs/_robocup_msgs_s.ep.rosidl_typesupport_fastrtps_c.c

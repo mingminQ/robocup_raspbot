@@ -1,0 +1,30 @@
+[0.772s] Invoking command in '/home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11': AMENT_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_srvs:/home/mingq/workspace/robocup_raspbot/install/robocup_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_srvs:/home/mingq/workspace/robocup_raspbot/install/robocup_msgs LD_LIBRARY_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/lib:/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/lib/python3.10/site-packages:/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages:/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11/build --no-deps symlink_data
+[0.987s] running develop
+[1.121s] running egg_info
+[1.122s] creating robocup_yolo_v11.egg-info
+[1.122s] writing robocup_yolo_v11.egg-info/PKG-INFO
+[1.122s] writing dependency_links to robocup_yolo_v11.egg-info/dependency_links.txt
+[1.122s] writing entry points to robocup_yolo_v11.egg-info/entry_points.txt
+[1.122s] writing requirements to robocup_yolo_v11.egg-info/requires.txt
+[1.122s] writing top-level names to robocup_yolo_v11.egg-info/top_level.txt
+[1.123s] writing manifest file 'robocup_yolo_v11.egg-info/SOURCES.txt'
+[1.125s] reading manifest file 'robocup_yolo_v11.egg-info/SOURCES.txt'
+[1.125s] writing manifest file 'robocup_yolo_v11.egg-info/SOURCES.txt'
+[1.127s] running build_ext
+[1.128s] Creating /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/lib/python3.10/site-packages/robocup-yolo-v11.egg-link (link to .)
+[1.128s] Installing yolo_v11_detection_publisher script to /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/lib/robocup_yolo_v11
+[1.129s] Installing yolo_v11_detection_server script to /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/lib/robocup_yolo_v11
+[1.129s] 
+[1.129s] Installed /home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11
+[1.129s] running symlink_data
+[1.129s] creating /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/ament_index
+[1.129s] creating /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/ament_index/resource_index
+[1.130s] creating /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/ament_index/resource_index/packages
+[1.130s] symbolically linking /home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11/resource/robocup_yolo_v11 -> /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/ament_index/resource_index/packages
+[1.130s] symbolically linking /home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11/package.xml -> /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11
+[1.130s] creating /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11/launch
+[1.130s] symbolically linking /home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11/launch/yolo_v11_detection_server.launch.py -> /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11/launch
+[1.131s] symbolically linking /home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11/launch/yolo_v11_detection_publisher.launch.py -> /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11/launch
+[1.131s] creating /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11/weights
+[1.131s] symbolically linking /home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11/weights/yolo11n.pt -> /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11/weights
+[1.168s] Invoked command in '/home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11' returned '0': AMENT_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_srvs:/home/mingq/workspace/robocup_raspbot/install/robocup_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_srvs:/home/mingq/workspace/robocup_raspbot/install/robocup_msgs LD_LIBRARY_PATH=/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/lib:/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/lib/python3.10/site-packages:/home/mingq/workspace/robocup_raspbot/install/robocup_srvs/local/lib/python3.10/dist-packages:/home/mingq/workspace/robocup_raspbot/install/robocup_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11/build --no-deps symlink_data

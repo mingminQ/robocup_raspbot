@@ -1,0 +1,18 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/robocup_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robocup_msgs/msg/bounding_box2_d__type_support.cpp.o"
+  "CMakeFiles/robocup_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robocup_msgs/msg/bounding_box2_d__type_support.cpp.o.d"
+  "CMakeFiles/robocup_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robocup_msgs/msg/object_detection2_d__type_support.cpp.o"
+  "CMakeFiles/robocup_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robocup_msgs/msg/object_detection2_d__type_support.cpp.o.d"
+  "CMakeFiles/robocup_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robocup_msgs/msg/object_detection2_d_array__type_support.cpp.o"
+  "CMakeFiles/robocup_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robocup_msgs/msg/object_detection2_d_array__type_support.cpp.o.d"
+  "librobocup_msgs__rosidl_typesupport_c.pdb"
+  "librobocup_msgs__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/robocup_msgs/msg/bounding_box2_d__type_support.cpp"
+  "rosidl_typesupport_c/robocup_msgs/msg/object_detection2_d__type_support.cpp"
+  "rosidl_typesupport_c/robocup_msgs/msg/object_detection2_d_array__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/robocup_msgs__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

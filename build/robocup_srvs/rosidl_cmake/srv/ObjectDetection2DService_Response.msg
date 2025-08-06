@@ -1,0 +1,2 @@
+
+robocup_msgs/ObjectDetection2DArray[] detections

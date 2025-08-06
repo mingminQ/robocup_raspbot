@@ -37,7 +37,7 @@ include_directories(
 )
 
 # --------------------------------------------------------------------------------------------------
-# IAHRS interactive driver
+# Camera bringup
 # --------------------------------------------------------------------------------------------------
 add_executable(raspbot_camera
     node/raspbot_camera_node.cpp

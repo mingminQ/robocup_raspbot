@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating robocup_yolo_v11.egg-info
+writing robocup_yolo_v11.egg-info/PKG-INFO
+writing dependency_links to robocup_yolo_v11.egg-info/dependency_links.txt
+writing entry points to robocup_yolo_v11.egg-info/entry_points.txt
+writing requirements to robocup_yolo_v11.egg-info/requires.txt
+writing top-level names to robocup_yolo_v11.egg-info/top_level.txt
+writing manifest file 'robocup_yolo_v11.egg-info/SOURCES.txt'
+reading manifest file 'robocup_yolo_v11.egg-info/SOURCES.txt'
+writing manifest file 'robocup_yolo_v11.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/lib/python3.10/site-packages/robocup-yolo-v11.egg-link (link to .)
+Installing yolo_v11_detection_publisher script to /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/lib/robocup_yolo_v11
+Installing yolo_v11_detection_server script to /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/lib/robocup_yolo_v11
+
+Installed /home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11
+running symlink_data
+creating /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/ament_index
+creating /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/ament_index/resource_index
+creating /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/ament_index/resource_index/packages
+symbolically linking /home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11/resource/robocup_yolo_v11 -> /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/ament_index/resource_index/packages
+symbolically linking /home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11/package.xml -> /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11
+creating /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11/launch
+symbolically linking /home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11/launch/yolo_v11_detection_server.launch.py -> /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11/launch
+symbolically linking /home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11/launch/yolo_v11_detection_publisher.launch.py -> /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11/launch
+creating /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11/weights
+symbolically linking /home/mingq/workspace/robocup_raspbot/build/robocup_yolo_v11/weights/yolo11n.pt -> /home/mingq/workspace/robocup_raspbot/install/robocup_yolo_v11/share/robocup_yolo_v11/weights

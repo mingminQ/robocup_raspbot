@@ -1,4 +1,4 @@
-# launch/yolo_v11_launch.py
+# launch/yolo_v11_detection_server.launch.py
 
 import os
 from ament_index_python.packages import get_package_share_directory
@@ -13,6 +13,11 @@ def generate_launch_description():
     robocup_yolo_v11_share = get_package_share_directory('robocup_yolo_v11')
     model_pt_file = os.path.join(robocup_yolo_v11_share, 'weights', 'yolo11n.pt')
 
+    display_result = DeclareLaunchArgument(
+        'display_result',
+        default_value='false',
+        description='Flag to display yolo v11 detecion' 
+    )
     model_pt = DeclareLaunchArgument(
         'model_pt',
         default_value=model_pt_file,
@@ -34,12 +39,14 @@ def generate_launch_description():
         name='yolo_v11_detection_server',
         output='screen',
         parameters=[{
+            'display_result': LaunchConfiguration('display_result'),
             'model_pt': LaunchConfiguration('model_pt'),
             'image_topic': LaunchConfiguration('image_topic'),
             'detection_service': LaunchConfiguration('detection_service')
         }]
     )
     return LaunchDescription([
+        display_result,
         model_pt,
         image_topic,
         detection_service,

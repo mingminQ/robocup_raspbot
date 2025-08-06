@@ -1,0 +1,6 @@
+opencv-python
+robocup_msgs
+robocup_srvs
+ros2_numpy
+setuptools
+ultralytics>=8.0.0

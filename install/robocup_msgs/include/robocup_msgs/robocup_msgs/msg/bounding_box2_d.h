@@ -1,0 +1,1 @@
+/home/mingq/workspace/robocup_raspbot/build/robocup_msgs/rosidl_generator_c/robocup_msgs/msg/bounding_box2_d.h

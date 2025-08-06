@@ -1,0 +1,1 @@
+/home/mingq/workspace/robocup_raspbot/build/robocup_ros/ament_cmake_environment_hooks/local_setup.bash

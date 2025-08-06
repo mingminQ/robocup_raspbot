@@ -1,0 +1,1 @@
+/home/mingq/workspace/robocup_raspbot/build/robocup_srvs/rosidl_generator_cpp/robocup_srvs/msg/rosidl_generator_cpp__visibility_control.hpp
